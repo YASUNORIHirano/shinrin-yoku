@@ -1,0 +1,74 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  line-height: 1.75;
+}
+
+header, nav, main, footer {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header.top {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  background-image:  
+	url("images/top-sky.jpg");
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	min-height: 320px;
+}
+
+
+
+main {
+  padding-top: 18px;
+  padding-bottom: 80px;
+}
+
+h1 { margin: 0 0 8px; }
+h2 { margin: 0 0 12px; }
+
+nav ul {
+  padding-left: 18px; 
+}
+
+section {
+  padding: 34px 0;
+}
+
+.sense{
+  display: flex;
+	gap: 48px;
+  align-items: flex-start;
+}
+.sense_body{
+	flex: 7;
+	min-width: 0;
+}
+.sense_media{
+	flex: 3;
+}
+
+.sense_media img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.sense_media figcaption{
+  margin-top: 8px;
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+
+@media (max-width: 768px){
+  .sense{
+	flex-direction: column;
+	gap: 18px;
+}
+}
