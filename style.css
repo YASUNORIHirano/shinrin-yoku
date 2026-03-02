@@ -47,7 +47,7 @@ section {
 }
 
 .sense--reverse{
-	flex-direction: row-reverse
+	flex-direction: row-reverse;
 }
 .sense_body{
 	flex: 7;
@@ -130,10 +130,6 @@ html[lang="en"] {
 .lang span {
   margin: 0 6px;
 }
-
-  top: 16px;
-  right: 16px;
-  font-size: 14px;
 
 iframe {
   width: 100%;
