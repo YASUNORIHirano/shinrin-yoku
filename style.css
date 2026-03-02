@@ -135,6 +135,11 @@ html[lang="en"] {
   right: 16px;
   font-size: 14px;
 
+iframe {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
 
 @media (max-width: 768px){
   .sense,
