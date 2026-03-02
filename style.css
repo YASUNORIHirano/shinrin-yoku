@@ -131,10 +131,16 @@ html[lang="en"] {
   margin: 0 6px;
 }
 
-iframe {
+
+.Location-map{
+  max-width: 720px;
+  height: 320px;
+}
+
+.Location-map iframe{
   width: 100%;
-  max-width: 100%;
-  display: block;
+  height: 100%;
+	display:block;
 	border: 0;
 }
 
