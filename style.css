@@ -131,6 +131,11 @@ html[lang="en"] {
   margin: 0 6px;
 }
 
+  top: 16px;
+  right: 16px;
+  font-size: 14px;
+
+
 @media (max-width: 768px){
   .sense,
 	.sense--reverse{
