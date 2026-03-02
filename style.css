@@ -15,7 +15,7 @@ header.top {
   padding-bottom: 10px;
   background-image:  
 	url("images/top-sky.jpg");
-	background-position:center;
+	background-position:center 60%;
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -45,6 +45,10 @@ section {
 	gap: 48px;
   align-items: flex-start;
 }
+
+.sense--reverse{
+	flex-direction: row-reverse
+}
 .sense_body{
 	flex: 7;
 	min-width: 0;
@@ -67,8 +71,69 @@ section {
 }
 
 @media (max-width: 768px){
-  .sense{
+  .sense,
+	.sense--reverse{
 	flex-direction: column;
 	gap: 18px;
 }
+}
+
+.references{
+  margin: 40px 0;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f4f4f4;
+}
+
+.references h3{
+  margin: 0 0 12px;
+  font-size: 1rem;
+}
+
+.references ul{
+  margin: 0;
+  padding-left: 18px;
+}
+
+.references a{
+  text-decoration: none;
+}
+
+.references a:hover{
+  text-decoration: underline;
+}
+
+html[lang="ja"] {
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+}
+
+html[lang="ja"] .top h1 {
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+}
+
+html[lang="en"] {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+
+.top {
+  position: relative; 
+}
+
+.lang {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 14px;
+}
+
+.lang a {
+  text-decoration: none;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+}
+
+.lang span {
+  margin: 0 6px;
 }
